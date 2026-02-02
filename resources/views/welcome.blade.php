@@ -372,9 +372,9 @@
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-md-7">
-                <h1 class="display-4 fw-bold mb-0">PrimeAxis Technology Corp</h1>
+                <h1 class="display-4 fw-bold mb-0">PrimeAxis </h1>
                 <h4 class="mt-0 mb-5 text-warning">
-                    Technology Solutions
+                   Technology Corp
                 </h4>
                 <p class="lead mb-4 fs-5">Internet • CCTV • Web & Mobile Development • Smart IoT & Automation • System Integration</p>
                  <p class="lead  fs-6 hero-typing">
