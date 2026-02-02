@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::table('pong_mta_users', function (Blueprint $table) {
+            Schema::table('pong_mta_users', function (Blueprint $table) {
+                $table->boolean('mobile_verified')->default(false)->after('password');
+                $table->string('otp')->nullable()->after('mobile_verified');
+                $table->timestamp('otp_expires_at')->nullable()->after('otp');
+            });
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::table('pong_mta_users', function (Blueprint $table) {
+            $table->dropColumn(['mobile_verified', 'otp', 'otp_expires_at']);
+        });
+    }
+};
