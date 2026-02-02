@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PONG-MTA Technology Solutions</title>
+    <title>PrimeAxis Technology Corp</title>
     <link rel="shortcut icon" href="{{ asset('images/logo.png') }}" type="image/x-icon">
-    <meta name="description" content="PONG-MTA is an Internet Service Provider and IT solutions company offering ISP services, CCTV installation, web & mobile development, automation, and system integration.">
-    <meta name="keywords" content="ISP Philippines, CCTV Installer, System Integrator, Laravel Developer, Network Solutions, PONG-MTA">
-    <meta name="author" content="PONG-MTA Technology Solutions">
+    <meta name="description" content="PrimeAxis Technology Corp is an Internet Service Provider and IT solutions company offering ISP services, CCTV installation, web & mobile development, automation, and system integration.">
+    <meta name="keywords" content="ISP Philippines, CCTV Installer, System Integrator, Laravel Developer, Network Solutions, PrimeAxis Technology Corp">
+    <meta name="author" content="PrimeAxis Technology Corp">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -372,7 +372,7 @@
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-md-7">
-                <h1 class="display-4 fw-bold mb-0">PONG-MTA</h1>
+                <h1 class="display-4 fw-bold mb-0">PrimeAxis Technology Corp</h1>
                 <h4 class="mt-0 mb-5 text-warning">
                     Technology Solutions
                 </h4>
