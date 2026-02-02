@@ -342,7 +342,7 @@
           height="60"
           class="me-2 rounded-circle bg-light"
         />
-        PONG-MTA
+        PrimeAxis
       </a>
       <button
         class="navbar-toggler collapsed"
