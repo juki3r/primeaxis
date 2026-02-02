@@ -401,9 +401,9 @@
 <!-- ABOUT -->
 <section class="py-5">
     <div class="container text-center">
-        <h2 class="h2 fw-bold mb-4">About PONG-MTA</h2>
+        <h2 class="h2 fw-bold mb-4">About PrimeAxis</h2>
         <p class="text-secondary fs-6">
-            <strong>PONG-MTA</strong> is a professional technology solutions provider delivering
+            <strong>PrimeAxis</strong> is a professional technology solutions provider delivering
             reliable and scalable IT services. We specialize in Internet service deployment,
             CCTV and security systems, custom software development, automation, and full system
             integration.
@@ -521,7 +521,7 @@
 <!-- WHY US -->
 <section id="why-us" class="py-5 bg-light">
     <div class="container">
-        <h2 class="h2 fw-bold text-center mb-5">Why Choose PONG-MTA?</h2>
+        <h2 class="h2 fw-bold text-center mb-5">Why Choose PrimeAxis?</h2>
         <div class="row g-4 justify-content-center">
             <div class="col-md-5">
                 <div class="p-4 bg-white shadow-sm why-us-card h-100">
@@ -570,7 +570,7 @@
     <div class="container text-center footer">
         <h2 class="h2 fw-bold mb-3">Let’s Work Together</h2>
         <p class="mb-3 fs-6">Internet services, CCTV systems, software development, automation, and full IT integration.</p>
-        <p class="fw-semibold">© {{ date('Y') }} PONG-MTA Technology Solutions</p>
+        <p class="fw-semibold">© {{ date('Y') }} PrimeAxis Technology Corp</p>
         <div class="mt-3">
             <a href="#home">Home</a> | 
             <a href="#services">Services</a> | 
