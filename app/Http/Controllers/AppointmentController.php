@@ -61,7 +61,7 @@ class AppointmentController extends Controller
                         "Address: {$appointment->address}\n" .
                         "Contact: {$appointment->contact}\n",
                     function ($message) {
-                        $message->to('pongmta26@gmail.com')
+                        $message->to('admin@primeaxis-tech.com')
                             ->subject('New Appointment - PrimeAxis Technology Corp');
                     }
                 );
