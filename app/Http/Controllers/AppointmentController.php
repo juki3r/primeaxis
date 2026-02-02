@@ -41,16 +41,16 @@ class AppointmentController extends Controller
                 // Email to CLIENT
                 Mail::raw(
                     "Hello {$appointment->full_name},\n\n" .
-                        "Thank you for booking an appointment with PONG-MTA Technology Solutions.\n\n" .
+                        "Thank you for booking an appointment with PrimeAxis Technology Corp.\n\n" .
                         "📌 Appointment Details:\n" .
                         "Name: {$appointment->full_name}\n" .
                         "Address: {$appointment->address}\n" .
                         "Contact: {$appointment->contact}\n\n" .
                         "Our team will contact you shortly.\n\n" .
-                        "— PONG-MTA Technology Solutions",
+                        "— PrimeAxis Technology Corp",
                     function ($message) use ($appointment) {
                         $message->to($appointment->contact)
-                            ->subject('Appointment Confirmation - PONG-MTA');
+                            ->subject('Appointment Confirmation - PrimeAxis Technology Corp');
                     }
                 );
 
@@ -62,7 +62,7 @@ class AppointmentController extends Controller
                         "Contact: {$appointment->contact}\n",
                     function ($message) {
                         $message->to('pongmta26@gmail.com')
-                            ->subject('New Appointment - PONG-MTA');
+                            ->subject('New Appointment - PrimeAxis Technology Corp');
                     }
                 );
             } catch (\Exception $e) {
@@ -83,11 +83,11 @@ class AppointmentController extends Controller
                 ])->post('https://sms.pong-mta.tech/api/send-sms-api', [
                     'phone_number' => $appointment->contact,
                     'message' =>
-                    "PONG-MTA Appointment\n" .
+                    "PrimeAxis Technology Corp. Appointment\n" .
                         "Hi {$appointment->full_name},\n" .
                         "Your appointment request has been received.\n" .
                         "We will contact you shortly.\n\n" .
-                        "- PONG-MTA",
+                        "- PrimeAxis Technology Corp",
                 ]);
 
                 // 📲 SMS to admin
